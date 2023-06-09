@@ -1,0 +1,46 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+body{
+    display: inline-block;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    display: inline-block;
+    font-size: 32px;
+    background-color: #000207;
+    color: rgb(218, 3, 3);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid #00229E;
+
+}
+
+a:hover{
+    display: inline-block;
+
+    color: #00229E;
+    background-color: white;
+}
+
+.imglogo{
+   text-align: center;
+   position: relative;
+   position: absolute;
+   top: 50px;
+   left: 25%;
+   height: 29%;
+
+}
+
+
